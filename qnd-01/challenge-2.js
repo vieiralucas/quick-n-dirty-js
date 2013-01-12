@@ -5,7 +5,7 @@ var addEvents = function() {
         alert("Botão " + indice + " acionado!");
     };
 
-    for(var i = 0; onabort < buttons.length; i++) {
+    for(var i = 0; i < buttons.length; i++) {
         var button = buttons[i];
         button.onclick = function() {
             acionar(i);
