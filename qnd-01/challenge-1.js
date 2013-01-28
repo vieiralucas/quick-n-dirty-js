@@ -15,3 +15,9 @@ function foo() {
 }
 
 foo(); // Qual o retorno?
+
+/**
+ * Retorna [undefined]
+ * Motivo: count foi redeclarada dentro de foo, 
+ * e valerá undefined até ser instanciada dentro do for
+ */
