@@ -6,3 +6,8 @@ try {
 
 console.log(x);
 console.log(typeof e); // pq essa porra não existe?
+
+// @vieiralucas
+// Porque um bloco catch funciona de uma forma única
+// é criado uma variável que recebe o objeto da exceção capturada
+// e essa mesma variável é destruida ao final do bloco catch 
