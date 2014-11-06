@@ -1,4 +1,9 @@
-var potencia;
+// @vieiralucas \o/
+var potencia = function(expoente) {
+	return function(base) {
+		return Math.pow(base, expoente); // ok, xitei :D
+	}
+};
 
 var quadrado = potencia(2);
 
